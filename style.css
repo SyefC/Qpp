@@ -4,14 +4,20 @@ html {
 }
 h1 {
   display: block;
-  text-align: center;
-  color: #00ff11;
+  text-align: #00ff11;
 }
 body {
-  background-color: black;
+  background: linear-gradient(black,grey);
 }
 em {
   color: white;
+}
+#ok {
+  width: 255px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border: solid 10px black;
 }
 img {
   width: 255px;
@@ -19,3 +25,8 @@ img {
   margin-right: auto;
   display: block;
 }
+
+
+
+
+
